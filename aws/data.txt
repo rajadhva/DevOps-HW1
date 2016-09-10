@@ -1,0 +1,113 @@
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "LaunchTime": "2016-09-10T03:33:16.000Z",
+                    "EbsOptimized": false,
+                    "Hypervisor": "xen",
+                    "AmiLaunchIndex": 0,
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2b",
+                        "Tenancy": "default",
+                        "GroupName": null
+                    },
+                    "RootDeviceType": "ebs",
+                    "NetworkInterfaces": [
+                        {
+                            "Groups": [
+                                {
+                                    "GroupId": "sg-bba55fc2",
+                                    "GroupName": "default"
+                                }
+                            ],
+                            "OwnerId": "976938115298",
+                            "MacAddress": "06:aa:49:88:79:21",
+                            "Association": {
+                                "PublicDnsName": "ec2-50-112-200-33.us-west-2.compute.amazonaws.com",
+                                "IpOwnerId": "amazon",
+                                "PublicIp": "50.112.200.33"
+                            },
+                            "Status": "in-use",
+                            "SourceDestCheck": true,
+                            "PrivateDnsName": "ip-172-31-36-139.us-west-2.compute.internal",
+                            "NetworkInterfaceId": "eni-f769c6b9",
+                            "VpcId": "vpc-ab6462cf",
+                            "SubnetId": "subnet-07571471",
+                            "Attachment": {
+                                "AttachmentId": "eni-attach-a74c9707",
+                                "DeviceIndex": 0,
+                                "Status": "attached",
+                                "DeleteOnTermination": true,
+                                "AttachTime": "2016-09-10T03:33:16.000Z"
+                            },
+                            "PrivateIpAddresses": [
+                                {
+                                    "PrivateDnsName": "ip-172-31-36-139.us-west-2.compute.internal",
+                                    "Association": {
+                                        "PublicDnsName": "ec2-50-112-200-33.us-west-2.compute.amazonaws.com",
+                                        "IpOwnerId": "amazon",
+                                        "PublicIp": "50.112.200.33"
+                                    },
+                                    "Primary": true,
+                                    "PrivateIpAddress": "172.31.36.139"
+                                }
+                            ],
+                            "PrivateIpAddress": "172.31.36.139",
+                            "Description": null
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "PublicDnsName": "ec2-50-112-200-33.us-west-2.compute.amazonaws.com",
+                    "ClientToken": null,
+                    "VpcId": "vpc-ab6462cf",
+                    "SecurityGroups": [
+                        {
+                            "GroupId": "sg-bba55fc2",
+                            "GroupName": "default"
+                        }
+                    ],
+                    "InstanceId": "i-0df69cad68a6e451c",
+                    "InstanceType": "t2.micro",
+                    "BlockDeviceMappings": [
+                        {
+                            "Ebs": {
+                                "Status": "attached",
+                                "DeleteOnTermination": true,
+                                "AttachTime": "2016-09-10T03:33:16.000Z",
+                                "VolumeId": "vol-06f625276b914c5b6"
+                            },
+                            "DeviceName": "/dev/xvda"
+                        }
+                    ],
+                    "State": {
+                        "Name": "running",
+                        "Code": 16
+                    },
+                    "RootDeviceName": "/dev/xvda",
+                    "PrivateIpAddress": "172.31.36.139",
+                    "PublicIpAddress": "50.112.200.33",
+                    "StateTransitionReason": null,
+                    "ProductCodes": [],
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "instanceName"
+                        }
+                    ],
+                    "ImageId": "ami-7172b611",
+                    "Architecture": "x86_64",
+                    "PrivateDnsName": "ip-172-31-36-139.us-west-2.compute.internal",
+                    "VirtualizationType": "hvm",
+                    "SubnetId": "subnet-07571471"
+                }
+            ],
+            "OwnerId": "976938115298",
+            "ReservationId": "r-04cc65dbfe28bf55e"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+---
+- hosts: digitalocean
+  tasks:
+  - name: Install nginx server
+    apt: 
+      name: nginx
+      state: installed
+      update_cache: yes
+- hosts: aws
+  sudo: yes
+  tasks:
+  - name: Install nginx server
+    apt: 
+      name: nginx
+      state: installed
+      update_cache: yes
