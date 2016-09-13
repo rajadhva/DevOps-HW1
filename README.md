@@ -4,7 +4,7 @@
 
 1. git clone http://github.com/rajadhva/DevOps-HW1.git
 
-2. Run <pre>./dependencies.sh</pre> to install all the required dependencies. 
+2. Run <pre>./dependencies.sh</pre> to install all the node dependencies. The other softwares that are required are mentioned in the requirements.txt file. 
 
 3. Generate the ssh keys using the foolowing command <pre>ssh-keygen -t rsa</pre> . Go ahed and add the ppublic key to the digital ocean profile.
 
