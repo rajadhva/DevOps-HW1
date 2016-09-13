@@ -24,5 +24,5 @@
 
 11. You can key in the ip addreses of the instances in the browser and you should be able to see the welcome page for niginx webserver in both the cases.
 
-## Here in a link to the demo
+## Here is a link to the demo
 [HW1-Demo](https://youtu.be/E1yeiKIPTOI)
