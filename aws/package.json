@@ -1,0 +1,8 @@
+{
+  "name": "AWS",
+  "version": "0.0.0",
+  "main": "createEC2.js",
+  "devDependencies": {
+      "aws-sdk": "*"		
+  }
+}
