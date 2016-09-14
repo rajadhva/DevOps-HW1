@@ -24,3 +24,6 @@
 
 ## Here is a link to the demo
 [HW1-Demo](https://youtu.be/RM8gsKKgv2U)
+
+##Amazon EC2
+Amazon's EC2 web service provides resizable capacity in the cloud. EC2 provides you complete control of the ocmputing environment and lets you boot new server intances in minutes. It also allows to scale up and down as per requirements with relative ease. It lets you pay only for the capacity that you are using.A lot of developer tools exist which help in building fault resilient systems. The scaling and load balancing is seamless and automatic.
